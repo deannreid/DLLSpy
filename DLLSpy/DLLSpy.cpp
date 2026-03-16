@@ -559,7 +559,7 @@ void Beautify(PProcessContainer p, string message, string sevirity)
 				if (count == 1)
 				{
 					string sFileName = GetFilename(it.sBinaryPath);
-					fNewLog << "Application:  " << sFileName << "," << "Path:  " << it.sBinaryPath.c_str() << "," << "User:  " << it.sUserName << "," << "Sevirtiy:  " << sevirity << endl;
+					fNewLog << "Application:  " << sFileName << "," << "Path:  " << it.sBinaryPath.c_str() << "," << "User:  " << it.sUserName << "," << "Severity:  " << severity << endl;
 					fNewLog << "Modules" << endl;
 				}
 				fNewLog << j.sBinaryPath.c_str() << endl;
